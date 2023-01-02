@@ -13,7 +13,6 @@ import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import AirSharpIcon from "@mui/icons-material/AirSharp";
 import DeblurOutlinedIcon from "@mui/icons-material/DeblurOutlined";
 import pic4 from "./Assets/pic4.png";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 
 function App() {
