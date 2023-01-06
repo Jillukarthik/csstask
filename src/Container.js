@@ -3,7 +3,7 @@ import LeftNav from "./components/LeftNav/LeftNav";
 import MiddleNav from "./components/MiddleNav/MiddleNav";
 import RightNav from "./components/RightNav/RightNav";
 
-function Test() {
+function Container() {
   return (
     <div style={{ display: "flex" }}>
       <LeftNav />
@@ -13,4 +13,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Container;
