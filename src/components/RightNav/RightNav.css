@@ -1,0 +1,106 @@
+
+.rightnav{
+    margin:auto;
+    background-color:#FFFFFF;
+  }
+  
+  .rightnav__profile{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+    
+  }
+  
+  .rightnav__profile--image{
+    margin-top: 2px;
+    width: 30px;
+    height: 40px;
+  }
+  
+  .rightnav__profile--name{
+    /* margin-right: 20px;
+    margin-top: 12px; */
+    margin: auto;
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+  }
+  
+.upcoming__tasks--title{
+
+  margin-left: -6px;
+}
+
+
+  .rightnav__icon{
+    margin:auto;
+    align-items: center;
+    color: #768492;
+
+  }
+  
+  .rightnav__progress{
+    margin-top: 25px;
+  }
+  
+  
+  
+  .Progress__menu{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .progress__menu--icon{
+    width: 30px;
+    height: fit-content;
+    color: #5E81F4;
+    background-color:#ccc;
+    border: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-right: 12px;
+    margin-top: 7px;
+  }
+  
+  .progress__menu--title h5,small{
+    margin-left: 2px;
+  }
+  
+  
+  .progress__Loader--out{
+   width: 70px;
+   height: 8px;
+   background-color:#ccc;
+   border-radius: 3px;
+   margin-top: 12px;
+   border-radius: 10px;
+  }
+  
+  .progress__Loader--in{
+    width: 50px;
+    height: 8px;
+    background-color:  #5E81F4;
+    border-radius: 10px;
+  }
+  
+  
+  .upcoming__tasks{
+    margin-top: 20px;
+  }
+  
+  
+  
+  .upcoming__taskone{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .upcoming__taskstopic{
+    margin-left:13px;
+  }
+  .upcoming__tasks__topic > small{
+    /* margin-left:-20px */
+  }

@@ -1,0 +1,117 @@
+
+.leftnav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 16%;
+    align-items: center;
+  }
+  
+  .leftnav__title{
+    display: flex;
+    margin-top: 30px;
+    
+  }
+  .leftnav__button--fname{
+    width: 30px;
+    height: 30px;
+    background-color:#5E81F4;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border: none;
+  }
+  .leftnav__title__name{
+    color:#5E81F4;
+    margin-left: 14px;
+    margin-bottom: 30px;
+  }
+  .leftnav__button--joincourse{
+    background-color: #5E81F4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    width: 120px;
+    height: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* margin-bottom:120px; */
+  }
+  
+  
+  
+  .leftnav__card{
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:#F5F5FB;
+    width: 160px;
+    height: 120px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .leftnav__card__image{
+    width: 60px;
+    margin-top: -34px;
+  }
+  
+  .card__button--upgrade{
+    background-color: #5E81F4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    margin-top: 12px;
+    align-items: center;
+  }
+
+
+  .leftnav__menu{
+    display: flex;
+   justify-content:center;
+  position: relative;
+  margin-top: 35px;
+  width: 100%;
+  }
+  
+  .leftnav__menu--topic{
+    margin-left: 15px;
+    color: lightslategrey;
+    /* margin-right: 20px; */
+    margin-top: 3px;
+  
+  }
+  .leftnav__menu--icon{
+  color:lightslategrey;
+  
+  }
+  .leftnav__menu__combine{
+     display: flex;
+    width: 100%;
+   margin-left:70px;
+    text-align: center;
+  }
+  
+  .leftnav__menu:hover .leftnav__menu--icon{
+    color: #5E81F4;
+    cursor: pointer;
+    
+  }
+  
+  .leftnav__menu:hover .leftnav__menu--topic{
+    color: black;
+    cursor: pointer;
+  }
+  .leftnav__menu:hover {
+    border-right: 3px solid #5E81F4;
+  }
+  
+  .leftnav__card__description{
+    width: 60%;
+margin-top: 23px;
+text-align: center;
+color:#778DAD
+  }
