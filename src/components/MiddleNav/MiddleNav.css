@@ -16,6 +16,8 @@
    width: 472px;
    height: 56px;
    border-radius: 6px;
+   padding: 12px;
+    box-sizing: border-box;
   }
 
   input::placeholder {
